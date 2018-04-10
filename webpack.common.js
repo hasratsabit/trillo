@@ -19,7 +19,7 @@ module.exports = {
     },
 
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'docs'),
         filename: '[name].bundle.[hash:12].js',
     },
 
@@ -42,7 +42,7 @@ module.exports = {
                         loader: 'file-loader?[limit=10000]',
                         options: {
                             name: '[name][hash:12].[ext]',
-                            outputPath: 'assets/images/',
+                            outputPath: 'images/',
                             publicPath: 'images/'
                         }
                     }

@@ -1,6 +1,3 @@
-
-
-body {
-    background: orangered;
-    // background-image: url('../img/contact-large.jpg');
-}
+@import "base";
+@import "layout";
+@import "components";
